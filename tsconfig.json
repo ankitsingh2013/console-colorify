@@ -1,0 +1,11 @@
+{
+    "compilerOptions": {
+        "target": "ES5", // whatever the code we will write in ES6 it will be transformed to ES5 from ES6
+        "module": "CommonJS", //If you want to use this library in NodeJS or ReactjS so, we will use commonJS
+        "declaration": true,
+        "outDir": "./lib",
+        "strict": true
+    },
+    "include": ["src"],
+    "exclude": ["node_modules","**//__tests__/**"]
+}
